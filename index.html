@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar Project</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="banner">You can zoom in and click and drag to explore the scene.</div>
+  
+  <a href="#" class="btn btn-left" target="_blank">Made By Hazem</a>
+  <button class="btn btn-right" id="fullscreenBtn">Go Fullscreen</button>
+  <div class="watermark">Powered By Hazem</div>
+
+  <div class="webgl"></div>
+  
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.161.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.161.0/examples/jsm/"
+      }
+    }
+  </script>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
